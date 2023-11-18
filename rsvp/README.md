@@ -1,6 +1,6 @@
 "This is a README for RSVP folder."
 
-##File rsvp.js
+##File rsvp.js##
  ###Your Goal: Start a Party!
 This challenge is all about creating a group with your friends to split a shared expense.
 
