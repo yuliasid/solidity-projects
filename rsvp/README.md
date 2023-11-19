@@ -1,4 +1,5 @@
-## File rsvp.js
+# Party Split
+## rsvp.js
  ### Your Goal: Start a Party!
 This challenge is all about creating a group with your friends to split a shared expense.
 
@@ -9,3 +10,11 @@ Create a external, payable function called rsvp that will allow your friends to 
  ### Security
 Ensure that anyone who RSVPs to the party sends the exactly the required deposit. If they do not send exactly this amount, revert the transaction.
 Ensure that an address that has RSVP'd already cannot RSVP again! If the same address tries to RSVP twice, revert the transaction.
+
+## payBill.sol
+Once the party's over, it's time to pay the shared expenses! Be sure to distribute the remainder to the members of the party 
+
+### Your Goal: Share Expenses
+Create an external function called payBill which takes an address for the venue and an uint amount for the total cost of the bill.
+Use the pooled funds in the contract to pay this bill amount to the venue address (you can assume the pooled funds from the deposit are enough to pay the bill).
+In the payBill function, evenly distribute the remaining funds among the members of the party.
